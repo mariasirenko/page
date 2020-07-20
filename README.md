@@ -4,7 +4,6 @@ post alignment genotyping
 Genotyping SNVs
 1. Run cellranger count
 2. Run getBaseCalls on the cellranger count output directory
-2a. plotnumis() to look at number of UMIs per cell
 3. Convert basecalls into wildtype and mutant assignments
 4. Merge genotype assignments with seurat object
 
